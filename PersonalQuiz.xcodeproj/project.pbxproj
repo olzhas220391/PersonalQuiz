@@ -57,10 +57,10 @@
 			isa = PBXGroup;
 			children = (
 				7878C6022B0DF6EF00E6DD6E /* App */,
+				7878C6052B0DFB4200E6DD6E /* Models */,
 				7878C6032B0DFA5900E6DD6E /* ViewControllers */,
-				7878C5F42B0DECF200E6DD6E /* Main.storyboard */,
+				7878C6042B0DFB0B00E6DD6E /* Storyboards */,
 				7878C5F72B0DECF300E6DD6E /* Assets.xcassets */,
-				7878C5F92B0DECF300E6DD6E /* LaunchScreen.storyboard */,
 			);
 			path = PersonalQuiz;
 			sourceTree = "<group>";
@@ -81,6 +81,22 @@
 				7878C5F22B0DECF200E6DD6E /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7878C6042B0DFB0B00E6DD6E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7878C5F42B0DECF200E6DD6E /* Main.storyboard */,
+				7878C5F92B0DECF300E6DD6E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7878C6052B0DFB4200E6DD6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
