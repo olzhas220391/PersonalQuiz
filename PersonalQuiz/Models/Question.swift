@@ -7,8 +7,8 @@
 
 struct Question {
     let title: String
-    let responseType: ResponseType
-    let answers: [Answer]
+    let responseType: ResponseType // Категория вопросов и ответов
+    let answers: [Answer] // Список ответов на вопросы
     
     static func getQuestions() -> [Question] {
         [
