@@ -30,6 +30,16 @@ class QuestionsViewController: UIViewController {
         super.viewDidLoad()
     }
 
-
+    @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func multipleAnswerButtonPressed() {
+    }
+    
+    @IBAction func rangedAnswerButtonPressed() {
+    }
+    
+    
+    
 }
 
