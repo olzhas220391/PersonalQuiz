@@ -28,6 +28,7 @@ class QuestionsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI()
     }
 
     @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
@@ -38,8 +39,17 @@ class QuestionsViewController: UIViewController {
     
     @IBAction func rangedAnswerButtonPressed() {
     }
-    
-    
-    
+}
+
+// Определим расширение для приватных методов. Обязательно нужно писать заголовок для расширения.
+
+// MARK: - Privet Methods
+extension QuestionsViewController {
+    // Метод будет обновлять пользовательский интерфейс.
+    private func updateUI() {
+        for stackView in [singleStackView, multipleStackView, rangedStackView] {
+            stackView?.isHidden.toggle()
+        }
+    }
 }
 
