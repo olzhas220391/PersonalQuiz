@@ -12,6 +12,18 @@ class QuestionsViewController: UIViewController {
     @IBOutlet var questionProgressView: UIProgressView!
     @IBOutlet var questionLabelView: UILabel!
     
+    @IBOutlet var singleStackView: UIStackView!
+    @IBOutlet var singleButtons: [UIButton]!
+    
+    @IBOutlet var multipleStackView: UIStackView!
+    @IBOutlet var multipleLabels: [UILabel]!
+    @IBOutlet var multipleSwitches: [UISwitch]!
+    
+    @IBOutlet var rangedStackView: UIStackView!
+    @IBOutlet var rangedSlider: UISlider!
+    @IBOutlet var rangedLabels: [UILabel]!
+    
+    
     private let questions = Question.getQuestions() // Здесь у нас появился массив благодаря методу static func getQuestions() -> [Question] прописанный в файле Question.
     
     override func viewDidLoad() {
