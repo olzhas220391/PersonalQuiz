@@ -259,9 +259,7 @@
                             <constraint firstItem="710-5G-PqU" firstAttribute="centerX" secondItem="INC-ag-Xz9" secondAttribute="centerX" id="wxa-ss-XPx"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Вопрос №" id="qwp-Ds-jA3">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="7ZZ-r8-VXL"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Вопрос №" id="qwp-Ds-jA3"/>
                     <connections>
                         <outlet property="multipleStackView" destination="Vcq-vv-9DE" id="qcg-PX-0ye"/>
                         <outlet property="questionLabelView" destination="710-5G-PqU" id="0RK-hb-Aj9"/>
@@ -324,7 +322,13 @@
                             <constraint firstItem="xCF-dy-8NP" firstAttribute="trailing" secondItem="LX8-KV-pLT" secondAttribute="trailing" constant="16" id="nfU-fx-Cpg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Результат" id="fAK-9U-stc"/>
+                    <navigationItem key="navigationItem" title="Результат" id="fAK-9U-stc">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="h92-Ax-VB2">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="TrM-lf-EA7" id="t1b-Qv-dkz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9rs-3w-Rd7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
