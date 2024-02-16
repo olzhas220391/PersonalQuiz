@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PersonalQuiz
 //
-//  Created by Alexey Efimov on 04.07.2022.
+//  Created by Olzhas on 16.02.2024.
 //
 
 import UIKit
